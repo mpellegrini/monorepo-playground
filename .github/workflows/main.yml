@@ -29,4 +29,4 @@ jobs:
         run: pnpm install --ignore-scripts
 
       - name: Build Monorepo
-        run: pnpm build --filter=...[${{ env.NX_HEAD }}...${{ env.NX_BASE }}]
+        run: pnpm build
