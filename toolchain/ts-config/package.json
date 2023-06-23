@@ -1,0 +1,11 @@
+{
+  "name": "@toolchain/ts-config",
+  "description": "",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "files": [
+    "tsconfig-base.json"
+  ]
+}
