@@ -1,0 +1,19 @@
+{
+  "name": "@packages/example-pkg",
+  "description": "Example Package",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "del dist && tsc",
+    "clean": "del .turbo dist"
+  },
+  "devDependencies": {
+    "@toolchain/ts-config": "workspace:*",
+    "@types/node": "20.3.1"
+  }
+}
