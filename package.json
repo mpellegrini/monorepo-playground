@@ -5,6 +5,7 @@
     "prepare": "husky install",
     "clean": "turbo run clean",
     "build": "turbo run build",
+    "test": "turbo run test",
     "format": "prettier --write ."
   },
   "engines": {
