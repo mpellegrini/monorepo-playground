@@ -30,3 +30,6 @@ jobs:
 
       - name: Build Monorepo
         run: pnpm build
+
+      - name: Test Monorepo
+        run: pnpm test
