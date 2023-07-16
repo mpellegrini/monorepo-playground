@@ -16,6 +16,6 @@
   "devDependencies": {
     "@toolchain/ts-config": "workspace:*",
     "@toolchain/vitest-config": "workspace:*",
-    "@types/node": "20.3.3"
+    "@types/node": "20.4.2"
   }
 }
