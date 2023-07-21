@@ -9,6 +9,11 @@
       "outputs": ["dist/**"],
       "cache": true
     },
+    "lint": {
+      "dependsOn": [],
+      "inputs": [],
+      "outputs": []
+    },
     "test": {
       "dependsOn": ["build"],
       "inputs": ["src/**/*.ts"],
