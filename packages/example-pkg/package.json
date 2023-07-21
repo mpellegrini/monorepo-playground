@@ -10,10 +10,12 @@
   },
   "scripts": {
     "build": "del dist && tsc",
+    "lint": "eslint .",
     "test": "vitest run",
     "clean": "del .turbo dist"
   },
   "devDependencies": {
+    "@toolchain/eslint-config": "workspace:*",
     "@toolchain/ts-config": "workspace:*",
     "@toolchain/vitest-config": "workspace:*",
     "@types/node": "20.4.2"

@@ -1,0 +1,26 @@
+{
+  "name": "@toolchain/eslint-config",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./profile/node-with-ts": "./profile/node-with-ts.js"
+  },
+  "devDependencies": {
+    "eslint-define-config": "1.21.0",
+    "ts-deepmerge": "6.2.0"
+  },
+  "dependencies": {
+    "@eslint/js": "8.45.0",
+    "@typescript-eslint/eslint-plugin": "6.1.0",
+    "@typescript-eslint/parser": "6.1.0",
+    "eslint": "8.45.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-import-resolver-typescript": "3.5.5",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-promise": "6.1.1",
+    "eslint-plugin-vitest": "0.2.6",
+    "globals": "13.20.0"
+  }
+}

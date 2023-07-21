@@ -31,5 +31,8 @@ jobs:
       - name: Build Monorepo
         run: pnpm build
 
+      - name: Lint Monorepo
+        run: pnpm lint
+
       - name: Test Monorepo
         run: pnpm test
