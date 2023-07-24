@@ -1,5 +1,6 @@
 // Documentation for this file: https://prettier.io/docs/en/configuration.html
-module.exports = {
+
+export default {
   // Extend the line length that the printer will wrap on beyond the default of 80.
   printWidth: 100,
 
@@ -26,8 +27,6 @@ module.exports = {
 
   // Note: prettier-plugin-tailwindcss must be last in the list
   plugins: ['prettier-plugin-svelte', 'prettier-plugin-tailwindcss'],
-
-  pluginSearchDirs: false,
 
   overrides: [{ files: '*.svelte', options: { parser: 'svelte' } }],
 }
