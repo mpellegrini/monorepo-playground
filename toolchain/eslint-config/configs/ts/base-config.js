@@ -8,7 +8,6 @@ export default merge(
     languageOptions: {
       parserOptions: {
         project: true,
-        ecmaVersion: 'latest',
       },
     },
     plugins: {
