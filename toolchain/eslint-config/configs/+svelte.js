@@ -6,6 +6,7 @@ export default defineFlatConfig({
   plugins: {
     svelte: plugin,
   },
+  processor: 'svelte/svelte',
   rules: {
     ...plugin.configs.recommended.rules,
     'svelte/block-lang': [
@@ -15,5 +16,6 @@ export default defineFlatConfig({
         style: ['postcss', 'css'],
       },
     ],
+    'svelte/comment-directive': ['error', { reportUnusedDisableDirectives: true }],
   },
 })

@@ -16,7 +16,7 @@ export default merge(
     rules: {
       ...plugin.configs['eslint-recommended'].overrides[0].rules,
       ...plugin.configs['recommended'].rules,
-      ...plugin.configs['recommended-type-checked'].rules,
+      ...plugin.configs['recommended-requiring-type-checking'].rules,
 
       '@typescript-eslint/no-use-before-define': [
         'error',
@@ -26,12 +26,22 @@ export default merge(
           variables: true,
         },
       ],
+      '@typescript-eslint/no-unused-vars': [
+        'error',
+        {
+          argsIgnorePattern: '^_',
+          varsIgnorePattern: '^_',
+          caughtErrorsIgnorePattern: '^_',
+          ignoreRestSiblings: true,
+        },
+      ],
       '@typescript-eslint/no-shadow': 'error',
       '@typescript-eslint/no-redeclare': 'error',
       '@typescript-eslint/explicit-module-boundary-types': 'error',
       '@typescript-eslint/explicit-function-return-type': ['error', { allowExpressions: true }],
       '@typescript-eslint/consistent-type-imports': 'error',
       '@typescript-eslint/no-non-null-assertion': 'error',
+      '@typescript-eslint/no-explicit-any': 'error',
     },
   }),
   im_port,
