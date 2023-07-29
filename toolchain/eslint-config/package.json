@@ -13,16 +13,16 @@
     "ts-deepmerge": "6.2.0"
   },
   "dependencies": {
-    "@eslint/js": "8.45.0",
+    "@eslint/js": "8.46.0",
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
-    "eslint": "8.45.0",
-    "eslint-config-prettier": "8.8.0",
+    "eslint": "8.46.0",
+    "eslint-config-prettier": "8.9.0",
     "eslint-import-resolver-typescript": "3.5.5",
     "eslint-plugin-import": "npm:eslint-plugin-i@2.27.5-4",
     "eslint-plugin-promise": "6.1.1",
     "eslint-plugin-svelte": "2.32.4",
-    "eslint-plugin-vitest": "0.2.6",
+    "eslint-plugin-vitest": "0.2.8",
     "globals": "13.20.0",
     "svelte-eslint-parser": "0.32.2"
   }
