@@ -12,7 +12,8 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "test": "vitest --run",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "clean": "del .svelte-kit .turbo"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "2.1.0",
