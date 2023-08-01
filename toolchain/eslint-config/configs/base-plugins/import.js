@@ -19,8 +19,9 @@ export default defineFlatConfig({
     'import/resolver': {
       typescript: true,
     },
+    // end temporary workaround
+    'import/internal-regex': '^@(apps|packages|toolchain|serverless|infrastructure)/',
   },
-  // end temporary workaround
   rules: {
     ...im_port.configs.recommended.rules,
 
@@ -28,13 +29,6 @@ export default defineFlatConfig({
       'error',
       {
         groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
-        pathGroups: [
-          { pattern: '@apps/**', group: 'internal' },
-          { pattern: '@packages/**', group: 'internal' },
-          { pattern: '@toolchain/**', group: 'internal' },
-          { pattern: '@serverless/**', group: 'internal' },
-          { pattern: '@infrastructure/**', group: 'internal' },
-        ],
         'newlines-between': 'always-and-inside-groups',
         pathGroupsExcludedImportTypes: ['internal'],
         alphabetize: {
