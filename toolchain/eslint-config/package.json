@@ -9,7 +9,7 @@
     "./profile/sveltekit-with-ts": "./profile/sveltekit-with-ts.js"
   },
   "devDependencies": {
-    "eslint-define-config": "1.21.0",
+    "eslint-define-config": "1.22.0",
     "ts-deepmerge": "6.2.0"
   },
   "dependencies": {
