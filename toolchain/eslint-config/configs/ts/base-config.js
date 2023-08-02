@@ -39,9 +39,12 @@ export default merge(
       '@typescript-eslint/no-redeclare': 'error',
       '@typescript-eslint/explicit-module-boundary-types': 'error',
       '@typescript-eslint/explicit-function-return-type': ['error', { allowExpressions: true }],
-      '@typescript-eslint/consistent-type-imports': 'error',
+      '@typescript-eslint/consistent-type-imports': ['error', { fixStyle: 'inline-type-imports' }],
       '@typescript-eslint/no-non-null-assertion': 'error',
       '@typescript-eslint/no-explicit-any': 'error',
+
+      // https://typescript-eslint.io/rules/no-import-type-side-effects/
+      '@typescript-eslint/no-import-type-side-effects': 'error',
     },
   }),
   im_port,
