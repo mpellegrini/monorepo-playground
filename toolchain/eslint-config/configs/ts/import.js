@@ -35,5 +35,8 @@ export default defineFlatConfig({
     // TypeScript will automatically enforce that you include extensions
     // when moduleResolution is set to Node16 or NodeNext.
     'import/extensions': 'off',
+
+    // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-duplicates.md
+    'import/no-duplicates': ['error', { 'prefer-inline': true }],
   },
 })
