@@ -12,7 +12,7 @@
     "build": "del dist && tsc",
     "lint": "eslint .",
     "test": "vitest run",
-    "clean": "del .turbo dist"
+    "clean": "del .turbo dist coverage"
   },
   "devDependencies": {
     "@toolchain/eslint-config": "workspace:*",
