@@ -11,21 +11,21 @@
   "devDependencies": {
     "eslint-define-config": "1.23.0",
     "ts-deepmerge": "6.2.0",
-    "typescript": "5.1.6"
+    "typescript": "5.2.2"
   },
   "dependencies": {
-    "@aws-appsync/eslint-plugin": "1.2.6",
-    "@eslint/js": "8.47.0",
-    "@typescript-eslint/eslint-plugin": "6.4.0",
-    "@typescript-eslint/parser": "6.4.0",
-    "eslint": "8.47.0",
+    "@aws-appsync/eslint-plugin": "1.4.0",
+    "@eslint/js": "8.49.0",
+    "@typescript-eslint/eslint-plugin": "6.7.2",
+    "@typescript-eslint/parser": "6.7.2",
+    "eslint": "8.49.0",
     "eslint-config-prettier": "9.0.0",
     "eslint-import-resolver-typescript": "3.6.0",
-    "eslint-plugin-import": "2.28.0",
+    "eslint-plugin-import": "2.28.1",
     "eslint-plugin-promise": "6.1.1",
-    "eslint-plugin-svelte": "2.32.4",
-    "eslint-plugin-vitest": "0.2.8",
+    "eslint-plugin-svelte": "2.33.2",
+    "eslint-plugin-vitest": "0.3.1",
     "globals": "13.21.0",
-    "svelte-eslint-parser": "0.32.2"
+    "svelte-eslint-parser": "0.33.0"
   }
 }
